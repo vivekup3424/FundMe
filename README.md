@@ -5,7 +5,6 @@ This project demonstrates a **basic blockchain** usecase. I have a **hardhat app
 
  - fund ETH to the contract
  - and deployer can withdraw funding from the smart contract.
- - 
 I have used Goerli Testnet, for testing and deployment.
 I have used yarn package manager.
 Try running some of the following tasks:
