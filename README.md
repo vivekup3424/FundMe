@@ -1,13 +1,14 @@
-# Sample Hardhat Project
+# Hardhat FundMe Project
+###:wave:Hi There,
+This project demonstrates a basic blockchain usecase. I have a hardhat app, through which anyone can fund ETH to the deployer and deployer can withdraw funding from the smart contract.
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
+I have used Goerli Testnet, for testing and deployment.
+I have used yarn package manager.
 Try running some of the following tasks:
 
 ```shell
-npx hardhat help
-npx hardhat test
+yarn fund #funds_some_hardcoded_Goerli_ETH
+yarn withdraw
 REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
+yarn hardhat node
 ```
