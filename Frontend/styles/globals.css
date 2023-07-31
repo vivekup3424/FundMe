@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* background-image: radial-gradient(circle, #aad7ec, #97cdec, #87c2ec, #7ab6ec, #71aaeb, #68a0e7, #6195e3, #5c8bde, #4d80d7, #3e76d0, #2b6bc8, #0d61c1); */
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
